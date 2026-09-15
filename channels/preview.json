@@ -1,0 +1,1714 @@
+{
+  "schemaVersion": 1,
+  "manifestStatus": "PREVIEW_RELEASE_CANDIDATE",
+  "release": {
+    "id": "preview-2026.09.15.1",
+    "displayVersion": "Preview 2026.09.15.1",
+    "channel": "preview",
+    "productionApproved": false,
+    "publishable": true,
+    "updateSeverity": "required",
+    "minimumSupportedRelease": "preview-2026.09.15.1",
+    "changeSummary": "First hosted NEMESIS Preview distribution candidate: frozen addon suite, required Bestiary/DungeonMaps client assets, and current Preview retroport MPQ."
+  },
+  "targetClient": {
+    "product": "World of Warcraft 3.3.5a",
+    "build": 12340,
+    "locale": "enUS",
+    "wowExeSize": 7704216,
+    "wowExeSha256": "AA63A5750D60EF16746C686B3D5E26876D98953EAB08B1C026CD0FAF78E88CB8"
+  },
+  "realm": {
+    "endpoint": "75.159.4.230",
+    "realmlistRelativePath": "Data/enUS/realmlist.wtf",
+    "realmlistContent": "set realmlist 75.159.4.230\r\n",
+    "configRelativePath": "WTF/Config.wtf",
+    "configKey": "realmList"
+  },
+  "components": [
+    {
+      "id": "nemesis-addons",
+      "displayName": "Nemesis Addons",
+      "version": "preview-0.1.0",
+      "kind": "addon-suite",
+      "required": true,
+      "archive": "https://github.com/catchupchips-coder/NEMESIS-Distribution/releases/download/preview-2026.09.15.1/nemesis-addons-preview-0.1.0.zip",
+      "archiveSize": 17439126,
+      "archiveSha256": "AF8E8E03758B08A3BB6F4B35D358463FE4D2BC1410036AB859AF1FD5FB4C8FAA",
+      "gameClosedRequired": false,
+      "restartRequired": true,
+      "files": [
+        {
+          "path": "Interface\\AddOns\\NemesisUnitFrames\\NemesisUnitFrames.lua",
+          "size": 80181,
+          "sha256": "2CC528ECA857FC61B4CB6B2321C56FA68601B8EAAB99C72657FEC4EAFBEC6752"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisUnitFrames\\NemesisUnitFrames.toc",
+          "size": 209,
+          "sha256": "8D2DC8771BDD812048D65C10DEC8EB48464C29B6F7D89555A5F15B6CE338C28C"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisUnitFrames\\README.txt",
+          "size": 1034,
+          "sha256": "8914BB2AEB3C442A22ADF2BCB9DA302AAD3E31382282998E06D1CEE351084ECF"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisTooltips\\AutoCompare.lua",
+          "size": 36676,
+          "sha256": "9D46A37C16D3A6C7811C4CA9B19DB7F454FD1802DB46D22F51C1122BA403E9BA"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisTooltips\\Core.lua",
+          "size": 3941,
+          "sha256": "A7FF343F37C388C1DA496690AB7EEE36AAE20E5000DAE7BFF4DCA2C5DDAB8DDD"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisTooltips\\DIAGNOSTIC.txt",
+          "size": 580,
+          "sha256": "203202D5FAC1485E411688A36156B3AE179FDE43917F2C265231B451140F6DC4"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisTooltips\\GearScore.lua",
+          "size": 4323,
+          "sha256": "5628EC93DDF86E41392E6FADDFBA4093179788C6B70F839A1FF070C66A5722E0"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisTooltips\\ItemRenderer.lua",
+          "size": 44382,
+          "sha256": "A7FA3446594E6D2C9C3B501729A771BA5879F7636DC646B2C02C685BB44FBE4A"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisTooltips\\NemesisTooltips.toc",
+          "size": 372,
+          "sha256": "9B557537DD47FD210ADB9E9B0E401AC603B1C37F8F93A7F5829B5C15906907A0"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisTooltips\\README.md",
+          "size": 17509,
+          "sha256": "5C61C010EE9FE2454C66BCC7F53441D7C95AEF2C8CDEF90F20F5CFFB1F31CE97"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisTooltips\\SpellRenderer.lua",
+          "size": 17963,
+          "sha256": "9BC15C3D5A61B6FC404DA0D0441EC3F4649402357278239A43A7F1648B0E0268"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisTooltips\\Theme.lua",
+          "size": 11511,
+          "sha256": "0A1DC8ED7261AB3116D0DF668BDA2E97BC5A0B8785C80F242CD964931E51D4A2"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisTooltips\\Tooltips.lua",
+          "size": 49524,
+          "sha256": "B5B42B7175396FCEB8871A21A043216619A753F3B136369E00E1B78BAE177389"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisTooltips\\UnitRenderer.lua",
+          "size": 18173,
+          "sha256": "13F7F730F70CD7D83DE2DF7B787CCA710592E92CEE9478A90EC122E05213BE8C"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisRolls\\Core.lua",
+          "size": 2127,
+          "sha256": "9315E624A209EDB7B2426FDA02A7D5BDEF4860EC5393CA91F218004B77AC0C42"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisRolls\\GroupLoot.lua",
+          "size": 16818,
+          "sha256": "0AE3CEFB17312FD3642D5CDEBE3659C2870A22F8845E7ECADF3FF996C7685BEA"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisRolls\\NemesisRolls.toc",
+          "size": 199,
+          "sha256": "30BBA89687B1F803E32E4447AC2205F4A96190815BF3051483734E9DE0795B48"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisRolls\\Theme.lua",
+          "size": 4475,
+          "sha256": "A3D748EE9E69F494867CA9FAA3E8AC5DCB8CD6E1F4E2B8764FBF5BCC70DD0B38"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisQuests\\Core.lua",
+          "size": 11784,
+          "sha256": "EC1F18F09BD960E8B9B5AA177843ED23068F10B5A97BB400A0B5D87B694628A6"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisQuests\\MapBridge.lua",
+          "size": 26593,
+          "sha256": "333845D15DA28B777C49199B5FCE3D9492E7D674468E4599D57849ECBD678CF3"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisQuests\\NemesisQuestData.lua",
+          "size": 1842164,
+          "sha256": "E3962216615444C03AC7D7BF99DE928DAD12BFE9F539FBB66E82BC25875A5CBB"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisQuests\\NemesisQuests.toc",
+          "size": 294,
+          "sha256": "F43F649795B93745295A720CCFDE1753E15A6618FF5889B28626DD8E6AC8F120"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisQuests\\Objectives.lua",
+          "size": 1128,
+          "sha256": "A59333FDA11CE0602BB8F0BCB3615D39CF499C72DE2420AE0059BE56F901548A"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisQuests\\QuestData.lua",
+          "size": 5857,
+          "sha256": "A20032D7272366639A3E12E7E0B77AE88D8745389F52FC019B5C9A6087C40C78"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisQuests\\QuestLog.lua",
+          "size": 5122,
+          "sha256": "626D91D4A854F8379F774171F8CE6DF47D7977374694D2C811B6E15071FBE4E6"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisQuests\\README.md",
+          "size": 1586,
+          "sha256": "C52A9810B79695ECE91A23BFFF6B89C784D64C45EABFA5408D18C0B057CD6369"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisQuests\\Theme.lua",
+          "size": 4080,
+          "sha256": "4855A589F45D4881D81CE3BDFBFBD7004DAEDAD57B057D55F03AF0DB3F75443C"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisQuests\\Tracker.lua",
+          "size": 41184,
+          "sha256": "39836177DE052B18C83683E36C93166B6776BD8ED3E68B2EF257D79D91916166"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisPlates\\Core.lua",
+          "size": 7256,
+          "sha256": "28FC7B201F679C5741BCD53C6E10AF8CEDBA650478DCCEB0FB0602599A09F1E4"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisPlates\\NemesisPlates.toc",
+          "size": 244,
+          "sha256": "B920BEA0A819B8D37948F11D73DBA766C0D174606F467C755BEEC4BA86C75D59"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisPlates\\README.md",
+          "size": 2465,
+          "sha256": "26D6FE8443C8E116EC46F06860094CFC4539DF4C0941901335D3175603B14D10"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisPlates\\Theme.lua",
+          "size": 8032,
+          "sha256": "AFD253B67A16F34D9A081DFBC8140A55E2EF8CEA44329DE82ADFE5EFE6E2066E"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisPlates\\Media\\Bar.tga",
+          "size": 4140,
+          "sha256": "FC2759BAE6276524CE13A76F2BEC1F8C123F3CCA8AE3C4E1AD21B2BFAA203665"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisPlates\\Media\\Border.tga",
+          "size": 16428,
+          "sha256": "BCB698EBBF49A3FDAC62843CEB306F60F5EF5974D9A47510EE798413B2629EEE"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisPlates\\Media\\CastLocked.tga",
+          "size": 16428,
+          "sha256": "C21A8C2B3EA9F8EA296FF5FF5973482E601EAA60847038F4063C0E6E15B574CD"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisPlates\\Media\\Hover.tga",
+          "size": 16428,
+          "sha256": "14871B9D6679AA0626C7ECF7D3ABA45420ACABA7B827DB65B0FABEC591D087A3"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisPlates\\Media\\Outline.tga",
+          "size": 16428,
+          "sha256": "10A1FF32237C63B75BCEDC97456585FD9E8751CBB2419E139BCF40C6AF989301"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisPlates\\Media\\Solid.tga",
+          "size": 300,
+          "sha256": "FA791839092A1EC4978D381F0E72AD9E04F19701464F56CCE90E638D064B159B"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisPlates\\Media\\Target.tga",
+          "size": 16428,
+          "sha256": "CCF39D4F44BABCC4C179D67EC013A82F426724889E1853BBC77DBD94D11402BD"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMonsterHunter\\Core.lua",
+          "size": 11290,
+          "sha256": "864DC289B5A11E16F24DA1C70185A303BEA995221A4B3FE7EACE120D697EA2E9"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMonsterHunter\\MapBridge.lua",
+          "size": 8692,
+          "sha256": "F7B63CA3AEB815B885D3352BA7BF0639432E8AC55B9691314ACC70BF24C496BB"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMonsterHunter\\NemesisMonsterHunter.toc",
+          "size": 415,
+          "sha256": "5AFF651A58B9558A85B2D9A4C553B91D7529EAD9D3285459741852B5DA80DE0E"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMonsterHunter\\Theme.lua",
+          "size": 3921,
+          "sha256": "8C61D5B88FCDC5BEEBF8DFE1FBD5900DE0ECE744628EFB62D4DE73C3CD6B3FCC"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMonsterHunter\\UI.lua",
+          "size": 34424,
+          "sha256": "7D9101BCF09CA85366C435F5B8C9EB92A44FE6140E23F25C242A983B55B268DA"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMinimap\\NemesisMinimap.lua",
+          "size": 39109,
+          "sha256": "DD1F3D04915BF029FCB43EC857C64ABA489D44B72E89A4CC859318A26C909D9F"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMinimap\\NemesisMinimap.toc",
+          "size": 219,
+          "sha256": "FFB3CD8925A7C2AF3EE938672A68B8251C4BED7E5D95BA8342A205504C85D1B9"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMinimap\\README.txt",
+          "size": 4143,
+          "sha256": "A3237038F8F1612A9F3DEA61BF29071AC6810C92605F94F63BDD8F595BA7DBA4"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMerchant\\Core.lua",
+          "size": 4626,
+          "sha256": "533D8DBF5AFE9807BC16D23720D5777624266F0FF42C4BAD961B37968EF5CE9B"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMerchant\\Merchant.lua",
+          "size": 40195,
+          "sha256": "FF3F603BD955205D33F8FD1E05FE3F307031A9E765094AA197766112BEFB21B2"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMerchant\\NemesisMerchant.toc",
+          "size": 244,
+          "sha256": "A8443A554E472F54B74535A63DE004617B55D5D004A0BC483D25824B6B067CC2"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMerchant\\Theme.lua",
+          "size": 9949,
+          "sha256": "F3AD7B1C4279BE0FA920E5F0B35F7547BDA44FB596ADC8891C64081623259F20"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\API.lua",
+          "size": 2579,
+          "sha256": "FE2E97EE8E9A0FE470E7A94804987581906450792E9F857A8EC3615F2C19BD96"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\Arrow.lua",
+          "size": 11958,
+          "sha256": "3EB0CF2F40409818F596CF3ADB91DFB53663238D66743509BD97DF32918F2388"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\Coordinates.lua",
+          "size": 14686,
+          "sha256": "42B8C94B011FD27BD9AC699C2A1AC62D008CFF9A40F59BD6C6BC56B83D90B82A"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\Core.lua",
+          "size": 34925,
+          "sha256": "B2F4F10F3FBD175DBDDC89DF8A03790A6119A98CF3CCC4152F6A3B1A7A449559"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\MapDetails.lua",
+          "size": 7681,
+          "sha256": "7F10BC1DB2C2CF7A3C8CE9423A65DB5DFAE9B120689EC694C10D4EF3C0407D29"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\MapFrame.lua",
+          "size": 46185,
+          "sha256": "D2B3F33EE0728808FD97BDAD87A631D130F8B897882DC90E09A48C57C4CB6304"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\NemesisFlightData.lua",
+          "size": 124367,
+          "sha256": "CA8CD26213B24B273DCECD533D3BD31A392EC6435FD10422A2F237C315B5FC2B"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\NemesisMap.toc",
+          "size": 400,
+          "sha256": "388D3A0CB26D959726DC5568E7BCADA6025AACB310675386FC15F0A0834FDB41"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\NemesisTravelData.lua",
+          "size": 30758,
+          "sha256": "0AD6158A35BFCC1A614C39208B2486804D77CE18B37ED94556864E93E080A974"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\Pins.lua",
+          "size": 6182,
+          "sha256": "E7E0A07D95BB7F4CD7848C778E6B6A979DD6421F4B90D6632759429962A68A0D"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\Routing.lua",
+          "size": 270085,
+          "sha256": "5DE6AEEDD602DC1A052C67841925820E3E5F46C6051C465A894D063C5FC884F8"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\Theme.lua",
+          "size": 6751,
+          "sha256": "9B17F2BEC357A6618DB461C6AA308216327B8967C3960FA1502AC56A321F84BA"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\Waypoints.lua",
+          "size": 6223,
+          "sha256": "447215D27BD6B4FADD075B6BA6B015290FA1EA43890E799FF44F59A668F4A3E1"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisMap\\Data\\NemesisWorldTopology.lua",
+          "size": 100766,
+          "sha256": "88C1B6B20636D357355F53474D46D6A3E13E3A0D65C95E9792F34DF175CDC0BC"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisLoot\\Core.lua",
+          "size": 8140,
+          "sha256": "04D7099A8417F6647FF8D7545DBA4CF964CD20D937A2E43D142AC0D73080AE3B"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisLoot\\LootFrame.lua",
+          "size": 38355,
+          "sha256": "8846B6F59CD16DE3479E48CD9F6856A9130CB39BE41601A8812FA0EBAFE66290"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisLoot\\NemesisLoot.toc",
+          "size": 311,
+          "sha256": "9142BE7F2D2E0B9CFF53577B3526A59C69389A246EDE8119C26D2FCE5698FF30"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisLoot\\Theme.lua",
+          "size": 15715,
+          "sha256": "7A9E5D442C73EA248B6CE8BA6C7457B335CDD86E6EF52D8C2549A7FDDB0FC4D6"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\ASSET-SOURCES.txt",
+          "size": 666,
+          "sha256": "D95428D0E5BEA328E1598D627566348C6ADF637795D755169933E1CBF2180575"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Core.lua",
+          "size": 12801,
+          "sha256": "526480924DDC9F2DF1593CD37F619DB81949F3A89CE3A28062FE7BBEDB811F8E"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Data.lua",
+          "size": 366746,
+          "sha256": "2B49619353A6DFC5B0857A2E738E66683DAABF3094D9D10065106E9C6D9620F0"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\EncounterData.lua",
+          "size": 561839,
+          "sha256": "BF450645613C3D1165C92BCF43A6C5F1D826CA166A502E3548E812A3C1CE0BEC"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Integration.lua",
+          "size": 99298,
+          "sha256": "7E7154CC055D1CD3C2FFD7D53DB745D533E178CED6D6955176B6FB357196E3B7"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\NemesisDungeonMaps.toc",
+          "size": 289,
+          "sha256": "50B4E0EDDA2C7F0E40AA26E983197A6B202648DC54051A0E518CC0B612C23A51"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\THIRD_PARTY\\ATLAS-LICENSE.txt",
+          "size": 18092,
+          "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\SMArmory.blp",
+          "size": 350724,
+          "sha256": "237EB6140BAE7258820260371C84D1504296375E6EA0E4A40F32C81C5D1BD69D"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\SMCathedral.blp",
+          "size": 350724,
+          "sha256": "44F3DA622D0481D1B7A0EB8B6B353C81FB2949301F1E305BB1919C095A10BBEB"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\SMGraveyard.blp",
+          "size": 350724,
+          "sha256": "F7A983A21AF97F98509C3FA215AC003B6EFBEEDCB5019A4328BD68A920349D27"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\SMLibrary.blp",
+          "size": 350724,
+          "sha256": "7682177B7D9FCD76AAFD88BC1C9618E74C0D31909BF9DC00378697A978B5D815"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\ZulFarrak.blp",
+          "size": 350724,
+          "sha256": "BB8FDA59A675C805D62F9C386EF8A8E9ED281FCEC30D0FF5BFBD21A219A8984E"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\AhnKahet.blp",
+          "size": 175948,
+          "sha256": "003D8A07F8D9BD99A00716651A2143D874EC08BCD99E67C7D1E4077F2FD3191B"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\AzjolNerub.blp",
+          "size": 175948,
+          "sha256": "02A4BB3A33D34443B7FDA2AACA090E29E83191D699B3F96A27685491FFFF3EB4"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\CoTOldStratholme.blp",
+          "size": 175948,
+          "sha256": "F92AB20B0E99D7F820E5A1AFF0907939AF097E580B34044BD3EA6A953928E13A"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\DrakTharonKeep.blp",
+          "size": 175948,
+          "sha256": "0566F6A030053CEC649983AC39C6D489206CDA1F7B6281602DB22298CB7F541D"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\FHHallsOfReflection.blp",
+          "size": 175948,
+          "sha256": "D5C8FBEFC71BDC1A896D0964694CD118C6F33DBBA0A211F8047B75F9E6452421"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\FHPitOfSaron.blp",
+          "size": 175948,
+          "sha256": "0127C235D3CA500B4C6E27B52D0F43F004ADC7F65BC42456E330AE96B98F7A78"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\FHTheForgeOfSouls.blp",
+          "size": 175948,
+          "sha256": "6DB994A19A0E538E1AE58A77681860D9E2B08B6BBD6A25A4C90B974A75AB3981"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\Gundrak.blp",
+          "size": 175948,
+          "sha256": "6F9E4FB750E92DA73B4D70D20283B3E01A3C1CBFAE12EDD6D735D6292972CB3B"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\IcecrownCitadelA.blp",
+          "size": 175948,
+          "sha256": "088D2AD6C3D469005C8A78CD6B478D25E74884316259AF16450230CB986D6626"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\IcecrownCitadelB.blp",
+          "size": 175948,
+          "sha256": "B194D40207323F1702137E63173D8603EE636C1368E750BA110558E4F859D7E1"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\IcecrownCitadelC.blp",
+          "size": 175948,
+          "sha256": "0BD695E6A36C2711242D2C411BC9DB5430704CD96358AB946849A8EDF00D0B39"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\Naxxramas.blp",
+          "size": 175948,
+          "sha256": "19F80FEBC43C749C1762B9F9386B761474B60445079CF2400B1F738956B74855"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\ObsidianSanctum.blp",
+          "size": 175948,
+          "sha256": "A5588022F0DB26E15B3C8AF82EC73AF69A74604223BA9F0B7623818E7D990364"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\OnyxiasLair.blp",
+          "size": 175948,
+          "sha256": "0CF270C0ADE147E6CC7F61D158E353228B791B62E44B96D67784A0CD2961F888"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\RubySanctum.blp",
+          "size": 175948,
+          "sha256": "37E1A047A5987CFCC4502EFF66FFA6BD85ABE56F0514E08C7446581DAEC26D58"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\TheEyeOfEternity.blp",
+          "size": 175948,
+          "sha256": "4A60BEDA30DBC27D22F03C825BBABE69D500A46F7BB80F41BB3500843508673A"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\TheNexus.blp",
+          "size": 175948,
+          "sha256": "340F780B519DFE1F105AE0764A8E7B84FAB3EE1B74633AA3C4DBF5C1414EDCDC"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\TheOculus.blp",
+          "size": 175948,
+          "sha256": "137409207B84C42797E2C455098A3EA5A3D53B2B448D67568C4E508251E0B7B5"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\TrialOfTheChampion.blp",
+          "size": 175948,
+          "sha256": "10090634F287D32B2954A6A1214085E6C7F837B9BBF2E00C10D47CC66AE8CBA0"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\TrialOfTheCrusader.blp",
+          "size": 175948,
+          "sha256": "D491785D53460A48E26A1F77B8F826B5650BE7A14F18C604B73F8546E7EF51A8"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\UlduarA.blp",
+          "size": 175948,
+          "sha256": "1A1700D7B6BCFBDED09F674007202A57DBB4E2180D228FDA3FD67CE6B6FE86F2"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\UlduarB.blp",
+          "size": 175948,
+          "sha256": "E96A24D4170F1D2BA847AB88718B49A698512D348A84BDA27948E3BBF68243E4"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\UlduarC.blp",
+          "size": 175948,
+          "sha256": "7DC4EC32FFF6F4502B71FD54788A4EDF52EDF8E13F0A256E640D52F2D0977665"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\UlduarD.blp",
+          "size": 175948,
+          "sha256": "60B0973EC18E663A0528478B649B4DFB696D5DED6646E9FA5FAD06A7028C53EE"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\UlduarE.blp",
+          "size": 175948,
+          "sha256": "A2E377A0469F1B8E3C738D4E9A649F7C7CC7623DEF32FCFE54025706546172E4"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\UlduarHallsofLightning.blp",
+          "size": 175948,
+          "sha256": "095DD303F6F9CD63FC44D14904203B7F60FFA4088E1F3DAA1A54C0C64A5027AD"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\UlduarHallsofStone.blp",
+          "size": 175948,
+          "sha256": "2645413A5F44AB49FDBDDCA052A269F33C23419340F240C5B39B754FE3B2C425"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\UtgardeKeep.blp",
+          "size": 175948,
+          "sha256": "327C4C68CE52EBEA06FD193D82D5E927CBA26D44D25EEFE751D01CD9BDD71525"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\UtgardePinnacle.blp",
+          "size": 175948,
+          "sha256": "9C72AEC283551E028BFC150D163C7F5DF02FDF57FBE4C6BA765ABAEF9C91D4B3"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\VaultOfArchavon.blp",
+          "size": 175948,
+          "sha256": "428B0988123841D6F4A04C384D0CABE39B429CA9616351B992F03AAA4A31645C"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Wrath\\VioletHold.blp",
+          "size": 175948,
+          "sha256": "0ADDAFBA38C64662C96553959BEFD6F8D7C741ABA6CD616C26F57D746C6D8A9B"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_AuchAuchenaiCrypts.blp",
+          "size": 350724,
+          "sha256": "57F1BF30C0514F383DB35784A80E4F8B0FF6D0D18103860CDB75F6ACE28F7ED4"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_AuchManaTombs.blp",
+          "size": 350724,
+          "sha256": "8FC3DEC25E97B868FB526A6CAC788063AA78F1D36C0DDCA7AEFAAA5C5A562433"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_AuchSethekkHalls.blp",
+          "size": 350724,
+          "sha256": "74B4727242739DB7CB0D9D2AD4564A923258830CFE6D9991E2749FB92301B8F0"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_AuchShadowLabyrinth.blp",
+          "size": 350724,
+          "sha256": "BAFD887468136D107B596D98E85585699BCF5D7326D1B3566787D94FC093F4E6"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_BlackTempleBasement.blp",
+          "size": 350724,
+          "sha256": "CD64E9E5F6C9C3D1CED057484E244844B3C2F4012961CEF50B96007C2232BB1F"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_BlackTempleStart.blp",
+          "size": 350724,
+          "sha256": "7784671C6A4C6E37659AC6E438D1AB211A1DCA9571C405598BE340C2301D7462"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_BlackTempleTop.blp",
+          "size": 350724,
+          "sha256": "E9BB8AB3310A9CBB1CEEB3336D1A08A310A0DF551283AB5E8E12A7319E64FEE2"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_CFRSerpentshrineCavern.blp",
+          "size": 350724,
+          "sha256": "89D14A5ABA44573444F59DFD053343DFF8D094EB185D105FD0CAFB1BB6725044"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_CFRTheSlavePens.blp",
+          "size": 350724,
+          "sha256": "3CC78A569E019413668C41F6ACCA98A2CE6C6C19C1B02264D646FDBA339608E6"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_CFRTheSteamvault.blp",
+          "size": 350724,
+          "sha256": "9032F34CF864F1F6DD62CEB0C661A88513EB8033F2971CA84B88271F72F28E92"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_CFRTheUnderbog.blp",
+          "size": 350724,
+          "sha256": "746F8D9953865F2535F8D70060A7E58A30B501E1E7379AD792C519615679A8F0"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_GruulsLair.blp",
+          "size": 350724,
+          "sha256": "D1C5A762EB0DC260B0B7D617F2553CFC007415C017F445B9E1BA3CC32BF9B000"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_HCBloodFurnace.blp",
+          "size": 350724,
+          "sha256": "B9CF3A58B888E06B92B8D77714D0550555D1711ECF139D86D3FA978A87966E36"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_HCHellfireRamparts.blp",
+          "size": 350724,
+          "sha256": "C3C7A461B51B40CB35BBE08F10D0E77863F268A14DE7F1EC48674C1FDC1155C2"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_HCMagtheridonsLair.blp",
+          "size": 350724,
+          "sha256": "FBEF3DB43B11690141A4CD6CBFFFB46B813EB11F4B1D677057D680EFC167AC8D"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_HCTheShatteredHalls.blp",
+          "size": 350724,
+          "sha256": "7547DF8EC5DF470D44B4BD050537546AC7D892AB755E56BA727F217678EE0FE1"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_KarazhanEnd.blp",
+          "size": 350724,
+          "sha256": "9448E4C1EA254D34F7B4FAD1BE45DDACE73B2FADE6B1E8A95A68F40982A799D0"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_KarazhanStart.blp",
+          "size": 350724,
+          "sha256": "E3CB404BB30EF38B80233F5429612C0052D87E24790AB4AC860145C777DF2DD7"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_MagistersTerrace.blp",
+          "size": 350724,
+          "sha256": "6CE9D0ABAC6EE0EC087219EDBE82A1134613A6823E93D209E2EF5E79E8D490EB"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_SunwellPlateau.blp",
+          "size": 350724,
+          "sha256": "12F4F1E7D5628D3B19060C32443D578330532AD62FB8828053347B11C96CCE69"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_TempestKeepArcatraz.blp",
+          "size": 350724,
+          "sha256": "342ED2335CD4ADB5E3C82D8B93EB6942F2D73303B28167A4F8F3040CC44FF8FE"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_TempestKeepBotanica.blp",
+          "size": 350724,
+          "sha256": "1056F45A673EE2802DED02944D8C6B9BAC473692C8FEEE100C83966435060FBD"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_TempestKeepMechanar.blp",
+          "size": 350724,
+          "sha256": "F6029473A25D7890A23A533A9AF215F8418C3FF08A8B79A7534085C9F630A9A0"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CL_TempestKeepTheEye.blp",
+          "size": 350724,
+          "sha256": "D271AD924EDDF406B7602787902D0D772E6F899F4F4B60303F43EF55B9407123"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CoTBlackMorass.blp",
+          "size": 175948,
+          "sha256": "8939E24690A20875209DCB3F10BEF323E716DFF311262050F80DE6663C0427FE"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CoTHyjal.blp",
+          "size": 175948,
+          "sha256": "7DBA20105E3A7AA534C4512495CEED954EBA37F818A44C2983BAEAFD321BD9F6"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\CoTOldHillsbrad.blp",
+          "size": 175948,
+          "sha256": "E80C93BA1EF67C4CDCD83E80AF8DC71783A3C60A8850243D9CD84E080E5CEEA7"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\TBC\\ZulAman.blp",
+          "size": 175948,
+          "sha256": "B76A08009B3B60394BDB62D30032D78704630E7FDBC5C0899276D61D6987505D"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_BlackfathomDeepsA.blp",
+          "size": 175948,
+          "sha256": "718010022F373DFA10BA693EC12A718CA2B4919124FCE19037200AFD6B8AD257"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_BlackfathomDeepsB.blp",
+          "size": 175948,
+          "sha256": "045D8288451CDE0C2917A9E41219844A0E3253B9E7C63BA7E2DCB5AF3980B4E9"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_BlackfathomDeepsC.blp",
+          "size": 175948,
+          "sha256": "1CA0BA84BEE06EF44120422EA57ABDF506CC16568850238D0F40E0CF17D137E3"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_BlackrockDepths.blp",
+          "size": 350724,
+          "sha256": "824067B9A9A5C949BB70DDF170984E578CB3D6849AC95A3250831929A0FF869B"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_BlackrockSpireLower.blp",
+          "size": 350724,
+          "sha256": "2D5D50D46C4FBAA871B8286FBA2341120AE6EEE901D5B7F2488D6594F2025D2E"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_BlackrockSpireUpper.blp",
+          "size": 350724,
+          "sha256": "1C7A2D28675D3924C161126188A0BB7A149862B43C092066EFABB757AFA1A13E"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_BlackwingLair.blp",
+          "size": 350724,
+          "sha256": "8286FA608C044C7AD15E2B759E9AF53EFD160E21A51DCEBF6691152DD560D878"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_DireMaulEast.blp",
+          "size": 350724,
+          "sha256": "1509A63971E4B445BD4DF0451F551F1C971930F3D6916F22126849585F23AD08"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_DireMaulNorth.blp",
+          "size": 350724,
+          "sha256": "EFBBA8DF7EDB93EAB494161D5029D300EE7BD8ACADE38F097D6A42C19F1CCA2B"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_DireMaulWest.blp",
+          "size": 350724,
+          "sha256": "DC9D3FAF0E01C7BCD161FF58930EA1F96ED293A2CD5ACB9FE0D5F08305F3CDD2"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_Gnomeregan.blp",
+          "size": 350724,
+          "sha256": "675583585605AA59C8D2C400501A0CF92927F6B2F52BEF5D44EB3A5366087F28"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_Maraudon.blp",
+          "size": 175948,
+          "sha256": "9577F69F6FB538C6A8B4141255EABF476DE11F58DAD4AFB4AA50193D7915E5CF"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_MoltenCore.blp",
+          "size": 350724,
+          "sha256": "E7E78BB851CF9B0796D07BFB588A0BB72BEDB6C931B55A1AD7E1EDCA5101624F"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_RagefireChasm.blp",
+          "size": 350724,
+          "sha256": "3D6B66F355D65187FF25860C228781A8BD179E841744CB86B6084BFB6610EE41"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_RazorfenDowns.blp",
+          "size": 350724,
+          "sha256": "2FA1FD40DABA67946293A6EE51F9444159C6359DC544D1336D742D73447EEB7D"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_RazorfenKraul.blp",
+          "size": 350724,
+          "sha256": "075C7D4E7C214F08C9C19AA101A5C6A01A0B0A097A1CFCCD1E90873ED6CCB7AF"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_Scholomance.blp",
+          "size": 350724,
+          "sha256": "851871CB40B9C18DE7E6E89DC6DF7D7D005A552CC6F0111B868F564186F61391"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_ShadowfangKeep.blp",
+          "size": 350724,
+          "sha256": "9CCCB54A179AE0F59D37F8523E53AAE8F6FCE480E7A8AC3B685C5235432420BF"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_SMArmory.blp",
+          "size": 350724,
+          "sha256": "237EB6140BAE7258820260371C84D1504296375E6EA0E4A40F32C81C5D1BD69D"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_SMCathedral.blp",
+          "size": 350724,
+          "sha256": "44F3DA622D0481D1B7A0EB8B6B353C81FB2949301F1E305BB1919C095A10BBEB"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_SMGraveyard.blp",
+          "size": 350724,
+          "sha256": "F7A983A21AF97F98509C3FA215AC003B6EFBEEDCB5019A4328BD68A920349D27"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_SMLibrary.blp",
+          "size": 350724,
+          "sha256": "7682177B7D9FCD76AAFD88BC1C9618E74C0D31909BF9DC00378697A978B5D815"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_Stratholme.blp",
+          "size": 350724,
+          "sha256": "2EADD82CDCA4E2D0B0F1564222C77C6B96CFF9F651773374371A879B415E39B2"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_TheDeadmines.blp",
+          "size": 175948,
+          "sha256": "58AB88E1F1340EA3219A78D7908523BA032D888C6543FB2581E00091495AC980"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_TheRuinsofAhnQiraj.blp",
+          "size": 175948,
+          "sha256": "0FECFAF14B188996F8F1E90CF883C92CD6313F6AEC7C4ACE0876A00FB2789AA6"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_TheStockade.blp",
+          "size": 350724,
+          "sha256": "4D443D7D1A906DC90F3249828DF588D8C09D0355D38FE57446A3E324771291C7"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_TheSunkenTemple.blp",
+          "size": 350724,
+          "sha256": "E33B03179A5E4AC25C1E89FB4F56286F493FB941EB9A70EF36D36FB0A73A2904"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_TheTempleofAhnQiraj.blp",
+          "size": 175948,
+          "sha256": "4BEC17791FD25D4432F5C9FC9DEA81361561B9127A43EF6F50895E5CDC2F2445"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_Uldaman.blp",
+          "size": 350724,
+          "sha256": "5F3821CD5FF9BFFB36C63D216DAE108AC409903423B73CEDFFEE7F4A6686ECB5"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_WailingCaverns.blp",
+          "size": 350724,
+          "sha256": "2E893C8ED0D7374EF5AE61F9E23E349A51750F0E5DC3996E012B9958E1EAFC75"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_ZulFarrak.blp",
+          "size": 350724,
+          "sha256": "BB8FDA59A675C805D62F9C386EF8A8E9ED281FCEC30D0FF5BFBD21A219A8984E"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDungeonMaps\\Maps\\Classic\\CL_ZulGurub.blp",
+          "size": 350724,
+          "sha256": "539C2F598A0B22A7D74F136383DAFD608A561F6D17CB9276857DCC0EA2BCE0D3"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDialogs\\Core.lua",
+          "size": 4919,
+          "sha256": "C15EFA11F1BCDE2107230B9D92964F035DB4C75BE2E9381C6AD09D5C270E5083"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDialogs\\NemesisDialogs.toc",
+          "size": 204,
+          "sha256": "6FF57270BA3A2AE98EE9A7BD58C4F3D97EAE4F2096C5EC984099126AC10DCF86"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDialogs\\StaticPopups.lua",
+          "size": 14043,
+          "sha256": "511674E04C8787F078BAD88F9D6559D82F987283305760397BCE7ED929203FB4"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisDialogs\\Theme.lua",
+          "size": 5519,
+          "sha256": "1D6D46D553B09C33E43B796B52EF584330091C0867A203499745BFF4D0C3C0CF"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureDataLoot\\Core.lua",
+          "size": 431,
+          "sha256": "49B7E968962257DD93C1ECE5FD625D98B5F417A9E8A9A33B1A2E05212F2FA780"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureDataLoot\\Items.lua",
+          "size": 1034189,
+          "sha256": "384E8C339B6787E899666429E38FB22A1C6D97FD61FAEFA24792BE4E15397CCF"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureDataLoot\\LootTables.lua",
+          "size": 8383775,
+          "sha256": "A341232A64DAFFEF3DF55FDB609BF41403737A27F1509D3930C6385C97B73756"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureDataLoot\\NemesisCreatureDataLoot.toc",
+          "size": 302,
+          "sha256": "6957CD972DAED29F447EBBD30E36D72F4AD76C3A282A5A659170EAABA07B39C9"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureDataBestiary\\Abilities.lua",
+          "size": 4329963,
+          "sha256": "45D053BD94F23266F49A43BD3139B935B4E6EB82A784937847F661F1809881D7"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureDataBestiary\\Core.lua",
+          "size": 2025,
+          "sha256": "A6F15A4667211D873DD36A1519EEFCD7E2F8E9FBBC319191CF13BA3F70287F35"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureDataBestiary\\Creatures.lua",
+          "size": 4269391,
+          "sha256": "DD25A2C155878008F373E6FB6727E13EB438F00EEE81125FD7AE1D534DE461C2"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureDataBestiary\\Defense.lua",
+          "size": 113385,
+          "sha256": "08FB9D7427E1A491DD6CFD33752147B8E7E6DE5E4590010814F25D221D3EFF89"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureDataBestiary\\Models.lua",
+          "size": 1474641,
+          "sha256": "1C4BF5BBE0FDCD3223C6FE1FAAE013DA71F9B8D746382AE8F9B57ABA6B81BBFC"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureDataBestiary\\NemesisCreatureDataBestiary.toc",
+          "size": 321,
+          "sha256": "D80C6FCCA2CC8A4B6303E4C79F70EA975C2A1C813EFD5448C2551FF2E618DAC5"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureDataBestiary\\Relations.lua",
+          "size": 3614034,
+          "sha256": "B491FD9F30FF7C8C93A9F22EE05675D18CC794712183CE217A34C354FC96D1E6"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureDataBestiary\\Stats.lua",
+          "size": 2875927,
+          "sha256": "47E9B68097BEBFAC5D0018306D0F2D69A971E6F34BF9C384D55BF507D26C9EC0"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureData\\Core.lua",
+          "size": 456,
+          "sha256": "09CD04E71A8062D2C56FA9C413B90CC81D0379B51BA53761D592C6F1648DD1E4"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureData\\Creatures.lua",
+          "size": 4146305,
+          "sha256": "324DDA7C6AB9B4F7B8C107C79ED57C9BD194CBE6EAB85EA4C4194B1DA231DC06"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureData\\Locations.lua",
+          "size": 3458333,
+          "sha256": "36AC8969AECADF8667880883E51F2F273ED5222954682FC7A099C0565E22B3D0"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCreatureData\\NemesisCreatureData.toc",
+          "size": 227,
+          "sha256": "690C723E7024A0FE0351B56CC6FEBA5711ECD002958E9E918C949175226F7C0B"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisChat\\Core.lua",
+          "size": 15817,
+          "sha256": "CD87A61E356CD4745C9CE78DC2595C6F505891982DD9E8C3A8EC3696B7D30FF4"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisChat\\NemesisChat.toc",
+          "size": 251,
+          "sha256": "0C0E896B9101A79BE790817C76BC7EFC0A8D408601429D15E346CC38FCFF46C0"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisChat\\README.md",
+          "size": 6174,
+          "sha256": "8ABC6F457136B37922286A0166D18CF6C724792FBF7FEAAB82F33341E8D0BC22"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisChat\\Router.lua",
+          "size": 19919,
+          "sha256": "A74418ADF60276951BFD4297BE1ABE5206D0A306E36D71232A49C3669531BEEA"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisChat\\Theme.lua",
+          "size": 10481,
+          "sha256": "CED37A86B97DBFCF592915FAFB38B136C7984B112EE541EA14F0B577EA2C6CA5"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisChat\\UI.lua",
+          "size": 94157,
+          "sha256": "FA5CCEC7DF076A015BE771F37E3D7D0CE72682CABCE4D87ED4C2B6AC04E7DF61"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCharacter\\Character.lua",
+          "size": 83062,
+          "sha256": "B535AC08BD5660BE455D481ADC8A11831EDE3381990608891552F43B6BC7E3C1"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCharacter\\NemesisCharacter.toc",
+          "size": 212,
+          "sha256": "246518C7BECB12E78E58F49FB44CE5B03940083F87C4125D7A0C2AFC28E9543E"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCharacter\\README.md",
+          "size": 9987,
+          "sha256": "92E93692B9FE17DF6C2ABBCD4F1A56BCADD0968CAB9951671898F8DA4EDFAE9F"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisCharacter\\Theme.lua",
+          "size": 3456,
+          "sha256": "92CFE93B96FBF7E259C0727B9CDB5B1932A108FB0C24CE1A6395D4553FB535F0"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisBestiary\\Core.lua",
+          "size": 16135,
+          "sha256": "FBC3454C1212E78036C074CBE2EF36C2D588D5FA742560F75948389BA2E1265B"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisBestiary\\Data.lua",
+          "size": 32520,
+          "sha256": "AA6A85A3CF023E1DDA100684B552A3245935A7D203A263013838818F329AE686"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisBestiary\\Model.lua",
+          "size": 11481,
+          "sha256": "C78A02DFBE20E7FE1918091E6504A9514B7A79DAF35A5C276B6F968CB3D88193"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisBestiary\\ModelFraming.lua",
+          "size": 58808,
+          "sha256": "AF9347FA4D23C054D57B574DCE07E09205F20E0C961EEBF7902D101BDE26D701"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisBestiary\\NemesisBestiary.toc",
+          "size": 487,
+          "sha256": "A2D31111093B110EE0EDAB2F18FB36F2FCDF5EE0943F013A41D36A30B4C529D9"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisBestiary\\Theme.lua",
+          "size": 4208,
+          "sha256": "0D087FA1B3C023D29F7EDA51D106896D634B1BC1E65179552FE5880D197A80DE"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisBestiary\\UI.lua",
+          "size": 40667,
+          "sha256": "F22E08E041C1CA792949564461B2EBB227DAF680635497912D2052501DC7D9E2"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisBags\\Bags.lua",
+          "size": 153370,
+          "sha256": "F69310DAE46FA4F97BA9F0DCC17E14F5E1BDF1AF4424CC7022B72C73F5F26A85"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisBags\\Core.lua",
+          "size": 5539,
+          "sha256": "E84917F46C219AB21E5A88E94BA908FE3BDB2FEE7C4BC68902F5E3082D448632"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisBags\\NemesisBags.toc",
+          "size": 202,
+          "sha256": "0F06DF280B8F83EC2EA73F58501EDFB26746CB737934306286A17FFE89FAA4B1"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisBags\\README.md",
+          "size": 10753,
+          "sha256": "6022D6E2E933AA580FAB7E5AC05FD8ADA44146557947175B61F5ABCDC5159533"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisBags\\Theme.lua",
+          "size": 12330,
+          "sha256": "F69D8B26BE2E5561AD490D381EB2BF4DA8C01BBC5F96A6A95D1355C997228AC1"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisActionBars\\ActionBars.lua",
+          "size": 17465,
+          "sha256": "EFF3399615D7467FC2CB90B2AAF3ADAE49BEA270AD6513FBA25A1452F8AC7702"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisActionBars\\BarManager.lua",
+          "size": 28676,
+          "sha256": "62340DDDBCA39A4D33E780E9C80EFF793841AE1F807BD104E7562FD1076C0337"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisActionBars\\Core.lua",
+          "size": 19279,
+          "sha256": "BFB47E26D991710F9526AE78FD6C5E6764C52DD9FA17A9A55F385E10AB97110A"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisActionBars\\NemesisActionBars.toc",
+          "size": 257,
+          "sha256": "61BEBCF0122E0EDB61D8C3D139DE490D9F3228C9750A51B6927A6CB673BEDF6E"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisActionBars\\README.txt",
+          "size": 30356,
+          "sha256": "A8F76AEF314657D6E4A69026C7BAA07806109F881128A276CD4F5D4380373C9C"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisActionBars\\Theme.lua",
+          "size": 12878,
+          "sha256": "4A2CE498ECF526C0D706FCE27140CA5F16CCA9D651A90D0635C2BA7A5734D54F"
+        },
+        {
+          "path": "Interface\\AddOns\\NemesisActionBars\\Utility.lua",
+          "size": 21766,
+          "sha256": "5CD8BD58186343D07B20877CDF729910B2F867ECEED1708202FAC97E83DCEB92"
+        },
+        {
+          "path": "Interface\\AddOns\\CustomItemFix\\CustomItemFix.lua",
+          "size": 1159,
+          "sha256": "D1F6AECF9D5C825FF7112147064D15F2607831C8CDA45D080ABAABD7EF830769"
+        },
+        {
+          "path": "Interface\\AddOns\\CustomItemFix\\CustomItemFix.toc",
+          "size": 216,
+          "sha256": "3EE283D2BE7AE7BC85D5F76B7BC495DDBD3CD60EDDE2BF9799F59BBC2702B28F"
+        },
+        {
+          "path": "Interface\\AddOns\\CustomItemFix\\CustomItemFixSupport.lua",
+          "size": 8389,
+          "sha256": "4E99E2512AE780F501AB2E614DE85FDB7862A71DD47665FF55EB0FF14B6D69AE"
+        },
+        {
+          "path": "Interface\\AddOns\\CustomItemFix\\README.md",
+          "size": 1704,
+          "sha256": "D68FB49C147B376C7DBDD6B1C236FB367F6EA4E3C1260F0334B32C19D98B82C0"
+        },
+        {
+          "path": "Interface\\AddOns\\CorruptedItems\\CorruptedItems.lua",
+          "size": 77667,
+          "sha256": "3A30DC24D7EE3FCFDA1BC9D11E8FB514A3FB8E4ACF329E4F8065298EC5645761"
+        },
+        {
+          "path": "Interface\\AddOns\\CorruptedItems\\CorruptedItems.toc",
+          "size": 276,
+          "sha256": "52A323DD5EBB24C9FAE4B2B2E4CAA89FEF6AAAF5BA709506494065333CEF565A"
+        },
+        {
+          "path": "Interface\\AddOns\\CorruptedItems\\README-CLIENT-HANDOFF.md",
+          "size": 5519,
+          "sha256": "B5C003460B21DA312B7228738504FEA84D877679706C61D69E1E0D5C56FA7FD6"
+        }
+      ]
+    },
+    {
+      "id": "tidyplates",
+      "displayName": "Tidyplates",
+      "version": "6.5.0",
+      "kind": "third-party-addon",
+      "required": true,
+      "archive": "https://github.com/catchupchips-coder/NEMESIS-Distribution/releases/download/preview-2026.09.15.1/tidyplates-6.5.0.zip",
+      "archiveSize": 267220,
+      "archiveSha256": "EB87BA9FDA61402D07CAFE1919BEBAF3883F4D9A32F92AD049B77DCC3221B155",
+      "gameClosedRequired": false,
+      "restartRequired": true,
+      "files": [
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\TidyPlates.toc",
+          "size": 414,
+          "sha256": "D5892F10A601E5FF13ECF0B9C4AC8DD58C763B952DBA8AE6FC53FD1559751591"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\TidyPlates.xml",
+          "size": 622,
+          "sha256": "337147D5F2108838F651AEAD3B01E866719DD792C17FDCE75AF49E6BF7E751FB"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\TidyPlatesCore.lua",
+          "size": 40794,
+          "sha256": "C7E8D9CD6AF659C9F060A637F06B05A25A0FD4C1F0F9301EFE2349187DC54430"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\TidyPlatesCustomStatusbar.lua",
+          "size": 7180,
+          "sha256": "71FA47B7DF0AF2AC60C04FADCA0AE0DD351643C4995734A8E647984EC3287594"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\TidyPlatesDefaults.lua",
+          "size": 4519,
+          "sha256": "B5AC6D74399820808EFDE1553109D11A2E84A275D7449D374C973CCD68B6F9CB"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\TidyPlatesHub.xml",
+          "size": 352,
+          "sha256": "2CB08D9315BC6633D70CD2E831CC98A39DBEEC6102643B103D71D88C3911345E"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\TidyPlatesLocales.xml",
+          "size": 432,
+          "sha256": "CC5167649A2F1AAE3E7605BCCE565A4F8190DE02648750E56E0012205CAB6DCA"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\TidyPlatesMinimapButton.lua",
+          "size": 7743,
+          "sha256": "669C9107A5D1CA6BE3C1EBB941647DA98B66CE405777E0D80AF232A7BEBB8F5A"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\TidyPlatesPanel.lua",
+          "size": 18540,
+          "sha256": "D11F35CCBD877E2E72DAD8CB072D3DBDEB609A5B539DB1A1CB0858CAFA9EDCE4"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\TidyPlatesSpellCastMonitor.lua",
+          "size": 4750,
+          "sha256": "707628FDAA79E26D55E68CDE63AFC863EAE9D36DBDBB222381216356209B0C68"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\TidyPlatesUtility.lua",
+          "size": 17738,
+          "sha256": "0D3168D414D4A7EAFF65ADE14EE07AD9A130699EE4A15A32BC189E68E342DBFF"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\TidyPlatesWidgets.xml",
+          "size": 1076,
+          "sha256": "F1F1F2DF9FD82CB7E3CF50331D6E466B77C25044F8884D628BAAE1671A5B943D"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Aggro.lua",
+          "size": 1171,
+          "sha256": "0C54EF721FF4FB6B6EC47F662010E382513D633ABB0C0992BE47625EA722F3EF"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ClassWidget.lua",
+          "size": 897,
+          "sha256": "B2AB2F414997BFDF4BD6E7D5BAA8D155A6AFDDD2A2DC77A52D7F2D78DB3F3B4D"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ComboPointWidget.lua",
+          "size": 2142,
+          "sha256": "CC0A90666043A93C8BAADEFE2154B6A703CAB215320CDECC5B160B318215587D"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\DebuffWidget.lua",
+          "size": 27819,
+          "sha256": "527180CEDB1AC583F915F2BC443FFFF574BC5DD1DE056047E4795D57A366780B"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\GroupCache.lua",
+          "size": 2164,
+          "sha256": "26945D2CE3C6219220B3B822EBB70E87584BC05FC21AF531B94A7AE13D09BB0B"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\RangeWidget.lua",
+          "size": 2970,
+          "sha256": "FECD9EFBEBA6E216D71B122E920C8D54989191F35E0030C1062F9DDA00714021"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\SelectionWidget.lua",
+          "size": 743,
+          "sha256": "91C1AB7C3B9B559C3E6D1D82E9335685D17BDB4F408783FC03844D85E2653E4C"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\TankedWidget.lua",
+          "size": 1545,
+          "sha256": "9992F1B3528948AA51CB525B312470067D3D126E6E77B08B5265B7CAB32E3BCB"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Tanks.lua",
+          "size": 3677,
+          "sha256": "345AA0EAA5629309CD21A358569D3F94794455FDF27AD6070343AA09B5A5C233"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ThreatLineWidget.lua",
+          "size": 8438,
+          "sha256": "9A0F765576987E5B10CB3AA96A2C30CDE2B23CF4F95722053C23C1B55AED9898"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ThreatWheelWidget.lua",
+          "size": 4144,
+          "sha256": "A5F31A01683FF5F9D45D86AF54D6963D6B61D2D7E65BF91A91F0F832DBBC105F"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\TotemIconWidget.lua",
+          "size": 9468,
+          "sha256": "59F016B64C57AF7BFAD48FFAB51B411906DF347BCDD57B80743C813A9CF3AC18"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\UnitCache.lua",
+          "size": 3090,
+          "sha256": "C6C6D25163D96C4E3123C8CDD2B4E105B9B63E42E927991329546C8A68E645C6"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\WidgetCore.lua",
+          "size": 3359,
+          "sha256": "2DF5A6714FE7EA9704686CABF808F494CE72EBB3E8C2DE52FFCAFB07AAD72DFD"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ThreatSpinner\\SpinnerArt.tga",
+          "size": 131116,
+          "sha256": "DD8B2B9F76957F278FAA538E4386D54850BCD014E5103A4D7BF3A75C7079D16F"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ThreatLine\\ThreatLineUnified.tga",
+          "size": 1632,
+          "sha256": "2119479ACB206518D2C585C116D66823AAB45DA9CC2CE2B897DE7C4EAE807996"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\RangeWidget\\RangeWidget.tga",
+          "size": 65580,
+          "sha256": "DAA874315EA4AFFD00E73091B2F937C77342D5933B82139C0AD33D1D3408F7A5"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\MainTanked\\Knife.blp",
+          "size": 2564,
+          "sha256": "79833F93BA38B24EC582311AB047962B5569EC1F01DBFA3489A93A0FA4282CD0"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\MainTanked\\Shield.blp",
+          "size": 2564,
+          "sha256": "ED4AC21DCFC0AA2B8974B8814315E392184BC8048383EA8C3F509C2E9CA26AAF"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Inactive\\CrowdControl.lua",
+          "size": 7537,
+          "sha256": "1B174E53E89CBB3A6696B752B5429F86D75670E8E4979A2C13665C5BDEB52EAB"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Inactive\\DebuffMonitor.lua",
+          "size": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Inactive\\DetectHealer.lua",
+          "size": 4806,
+          "sha256": "21E0834A0E6D5661CE7F08874C8FC905D4602154783ADBDB78B674BE8BD3ADB8"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Inactive\\Encounter.lua",
+          "size": 1200,
+          "sha256": "C697E602D25B65523B7E6EB76F708B8855CB4A99D3B8A615D4F133D52A62E096"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Inactive\\FauxPlate.lua",
+          "size": 2546,
+          "sha256": "F09973D6DCCC449060F1E52FCDEB649F2523FDA1EF2C4351CF30F5A5CD69B298"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Inactive\\TargetOfTracker.lua",
+          "size": 2186,
+          "sha256": "B0BE3C5F94811239E9791F418C1B8AF6DD636F4FB80284355B29760A95FC95F8"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ComboWidget\\1.tga",
+          "size": 2987,
+          "sha256": "5CEB50E74B3D920C0A006A2CF6CE1A34B6EB827B24F0511C4B6EA7A9A098F3F7"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ComboWidget\\2.tga",
+          "size": 3713,
+          "sha256": "1544619FA3616AAB66332FD63543D07E0DEDE4E544A19CEFB292C3263FC088C0"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ComboWidget\\3.tga",
+          "size": 4453,
+          "sha256": "74F10669CEBDC17A951F3047CA5387408134F46561E9110840D6E9EF561B6A3E"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ComboWidget\\4.tga",
+          "size": 5192,
+          "sha256": "5FC1DAA6073AC2DEC3657A0092E347F57FA49608FD667D15581DC3FF2C64F31F"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ComboWidget\\5.tga",
+          "size": 8236,
+          "sha256": "DA99F53B8C1E9B9591004772D4E645FF75ED2A4D1A8D8C824738E6DAA78E3B1B"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ClassWidget\\BORDER.tga",
+          "size": 16428,
+          "sha256": "B78EF3EF4BA3F47CEB1E304AD63EB456DB84A3B0D74E8D3979DDD20B7F97ED7D"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ClassWidget\\DEATHKNIGHT.tga",
+          "size": 16428,
+          "sha256": "A561AD98BF8A9513C1BE9850F74874C53AD041AF4C3695C5CBA74ADF0F005732"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ClassWidget\\DRUID.tga",
+          "size": 16428,
+          "sha256": "1D5A89CB3012CB976EB7B8E9832013CAA2AF42CD067FBFB92BF0F8FB84270B89"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ClassWidget\\HUNTER.tga",
+          "size": 16428,
+          "sha256": "F1CDD47CE77849EB915C5F7929B6AC7E1243404FE69D6C5AA9BA188940FDF1D4"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ClassWidget\\MAGE.tga",
+          "size": 16428,
+          "sha256": "FACA57A7F97339D713AE420191C8A97ADAC9DA6F61C3C6BC3CBB821515B6760A"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ClassWidget\\PALADIN.tga",
+          "size": 16428,
+          "sha256": "36DF88E0522D05D6F00C378BE8DDA591FCCB9F8E7A0A070027B7D4ADB093F850"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ClassWidget\\PRIEST.tga",
+          "size": 16428,
+          "sha256": "26C7BF900A6EF321B6AF39E4962AD59144617FBD1E8B2B53606A760392394B0C"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ClassWidget\\ROGUE.tga",
+          "size": 16428,
+          "sha256": "496687091CCF6C2569DF8A29433835B6B120B9CE8249940A88FC7EDF035D21DC"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ClassWidget\\SHAMAN.tga",
+          "size": 16428,
+          "sha256": "D6FC8F3F6A9F5B4AC2481CC606BDA3486699AE607E3748D0D535D8B38BFE3CDB"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ClassWidget\\WARLOCK.tga",
+          "size": 16428,
+          "sha256": "5F43E1EA324F96F26D942CA2E33391E7BC054ACC0D6B04E3E2E3679D15738A13"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\ClassWidget\\WARRIOR.tga",
+          "size": 16428,
+          "sha256": "A81B9345F794FC7740D29BB05D63B809921A43B949030FF7416DC8EC4FE6F4D0"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Aura\\AuraFrame.tga",
+          "size": 4140,
+          "sha256": "7C0CEBC2F588D67BA59670576A6239AA58DC85FCB53BDFF3BFD8333D5E39D0F7"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Aura\\AuraFrameGlow.tga",
+          "size": 554,
+          "sha256": "9980370C09145F9FFA44180B2C867C398C4AA6B9D0F26DED1C6EE4E6B43A133D"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Aura\\AuraGlow.tga",
+          "size": 666,
+          "sha256": "DD1677BF7C2335EFE157F5D01759ACDB56160C0FABC747F436F7B9753CB3A2B5"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Aura\\CCBackdrop.tga",
+          "size": 20356,
+          "sha256": "8432863CB4989EA7AEEE589F49D7FF779DCA1261AFA3C3AE10E7018D4E67D718"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Aura\\CCBorder.tga",
+          "size": 662,
+          "sha256": "72E3F69B127ACDD1BC3D807462D5378FDAA4C9DE0654E1ECAD0182A533B92E0A"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Aura\\CCBorderCorner.tga",
+          "size": 702,
+          "sha256": "7BD72645762AB7A057C4B977F68C2024990EDFA81682C3A30F9FA28F83895B4A"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Aura\\CCTest\\CCBackdrop.tga",
+          "size": 20356,
+          "sha256": "8432863CB4989EA7AEEE589F49D7FF779DCA1261AFA3C3AE10E7018D4E67D718"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\widgets\\Aura\\CCTest\\CCOutline.tga",
+          "size": 3138,
+          "sha256": "4807F13EC582B5C97F29A13E0CEB979EAA08C647886BF234F080C33B8CD844D6"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\media\\AccidentalPresidency.ttf",
+          "size": 41388,
+          "sha256": "CEA84CB99377C845835D434BA9C5476A2EC6D47A4180A99366A5C18604DAAF5F"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\media\\DefaultFont.ttf",
+          "size": 73200,
+          "sha256": "131D0BB4777B4A75C27B54AC625F6EE921015D94DB3579A6D98B6CA90EB9C87F"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\media\\Empty.tga",
+          "size": 1068,
+          "sha256": "FFFB3B9A233FBD27A58C411E8EB2CB6828F21B0041CD514DD97ED2A9CDAFF122"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\media\\Highlight.tga",
+          "size": 14051,
+          "sha256": "0772B3D62D569D9A34F2613DDA67BA23647614A1C62EF824164A51A052B25785"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\media\\Target.tga",
+          "size": 44211,
+          "sha256": "9D668534F4601227C8543886BE40661E62A8AACC440355E79DB6AA8D9BCEAD4C"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\media\\TidyPlatesIcon.tga",
+          "size": 2848,
+          "sha256": "E05CEEC25F1AAC48FA3AB62DAB4294BCE65CEA167A9A7B196D4B3A26452EC5B5"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\media\\Wrench.tga",
+          "size": 4140,
+          "sha256": "516E1074E3AC3B3317B9C29DA40E63DD1388FC932BF0985AD84060FDDE1FCE15"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\locales\\cn.lua",
+          "size": 7094,
+          "sha256": "E2B615F7C29F548CBE5A6A9995AB3509D5E85F390D87F6C997A2A9CF56102100"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\locales\\de.lua",
+          "size": 5415,
+          "sha256": "920A90508776E1533C2C246E70960EAB6E41AB2A315910DCBEB5CF1EA6A66122"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\locales\\en.lua",
+          "size": 8656,
+          "sha256": "235F4AFB0C7AAEFAA329C9920DA4CCB95FDD69672C071951B8CB9854E9DB5CFA"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\locales\\es.lua",
+          "size": 5441,
+          "sha256": "B999A785ED5A38C4307B6014F6EC03D54E06D70F29E358F6C7DBA21937A8B4EE"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\locales\\fr.lua",
+          "size": 7255,
+          "sha256": "5B0D99A79CBC7423896D990DC7CA744A26359BA3C08121E1574B2342C557AD4C"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\locales\\kr.lua",
+          "size": 5415,
+          "sha256": "3C9B6D5D75E797D86F31DDB253093E2787C3F7424AD103CC43A5C4FFF949138F"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\locales\\ru.lua",
+          "size": 5415,
+          "sha256": "463614C4D7D87580663067C79C2EAB5004D5B73262BBF69CA28B65575D4CFB73"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\locales\\tw.lua",
+          "size": 5415,
+          "sha256": "073870CE090CC9E445F50DB22E865F76C178A6CD4AF1511F486239E93D583E82"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\libs\\embeds.xml",
+          "size": 381,
+          "sha256": "4E660E1564118FDFA18932D7271481FA931805CD06A63EAA024C63CECA267B99"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\libs\\LibStub\\LibStub.lua",
+          "size": 2189,
+          "sha256": "0A3D0B503A1EACA2D2E8FF87389D961FDA70048D0E73DC11750B75E510614E3F"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\libs\\LibSharedMedia-3.0\\LibSharedMedia-3.0.lua",
+          "size": 9303,
+          "sha256": "B28A5928D8217129E93AB661F666800E6EBA42917F4F5B0EBB5D892EF927BFB1"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua",
+          "size": 8794,
+          "sha256": "BFC9AABC418FB75B6BD021577AFAFCA3EFB2A631774ABF0579B0BF6F6BDA054D"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\hub\\DamagePanel.lua",
+          "size": 25093,
+          "sha256": "ADEAB8EF00E69806810FB4833B89867D11D99416A8203C7ED191BEBDB20120F6"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\hub\\Functions.lua",
+          "size": 24284,
+          "sha256": "D0286A8C94A42F7D54350300F1133E4A3D8F13875A9FE59661E7F6FED316839D"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\hub\\Helpers.lua",
+          "size": 2755,
+          "sha256": "A8E6C940B7BDE18361D239A3CF06FBD7341DE19044BADD1765A10D6CB4CA6C11"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\hub\\RapidPanel.lua",
+          "size": 6541,
+          "sha256": "87DD7FAB408BB3ED251FF062705C3D9F44E8BC1BF3D92C298F5D827CD297A343"
+        },
+        {
+          "path": "Interface\\AddOns\\TidyPlates\\hub\\TankPanel.lua",
+          "size": 26455,
+          "sha256": "38CE1614F3016646455517FCBEBD0AE287755166CC1F55FC098833D78A399654"
+        }
+      ]
+    },
+    {
+      "id": "bestiary-creature-cache-enUS",
+      "displayName": "Bestiary Creature Cache Enus",
+      "version": "1.0.0",
+      "kind": "cache",
+      "required": true,
+      "archive": "https://github.com/catchupchips-coder/NEMESIS-Distribution/releases/download/preview-2026.09.15.1/bestiary-creature-cache-enUS-1.0.0.zip",
+      "archiveSize": 620785,
+      "archiveSha256": "E3D517639E8D1D43B2310569CC228A7A4A6FBD926CAFD82300E3B7033158A8E8",
+      "gameClosedRequired": true,
+      "restartRequired": true,
+      "files": [
+        {
+          "path": "Cache\\WDB\\enUS\\creaturecache.wdb",
+          "size": 3347330,
+          "sha256": "F87EA6C3BC080B95EBCCF83008B9C00DD8EE6F9DD3830583D01CAE854FE48969"
+        }
+      ]
+    },
+    {
+      "id": "dungeonmaps-wdm-enUS",
+      "displayName": "Dungeonmaps Wdm Enus",
+      "version": "1.0.0",
+      "kind": "mpq",
+      "required": true,
+      "archive": "https://github.com/catchupchips-coder/NEMESIS-Distribution/releases/download/preview-2026.09.15.1/dungeonmaps-wdm-enUS-1.0.0.zip",
+      "archiveSize": 48768860,
+      "archiveSha256": "3FA246896D5401F7C5B2F69A1D1749F852FE6A45ACFB0D076FADBD7AF0A009D1",
+      "gameClosedRequired": true,
+      "restartRequired": true,
+      "files": [
+        {
+          "path": "Data\\enUS\\patch-enUS-M.MPQ",
+          "size": 48767934,
+          "sha256": "B69713077E19498D20EFA5EEAEFDBA98850764DB6BDC99E292BFBDF7B1C858D6"
+        }
+      ]
+    },
+    {
+      "id": "retroports-preview",
+      "displayName": "NEMESIS Retroports (Preview)",
+      "version": "2026-09-15-snapshot",
+      "kind": "mpq-retroport-bundle",
+      "required": true,
+      "archive": "https://github.com/catchupchips-coder/NEMESIS-Distribution/releases/download/preview-2026.09.15.1/retroports-preview-2026-09-15.zip",
+      "archiveSize": 15796878,
+      "archiveSha256": "1D8260C3F6AFA8623517F2FDCBA1DA571C7CB110FFAD790624EC46DF396CAE4A",
+      "gameClosedRequired": true,
+      "restartRequired": true,
+      "files": [
+        {
+          "path": "Data\\patch-V.MPQ",
+          "size": 15884890,
+          "sha256": "BF88C5D5AF8BE5C8C14076F6AA8FA604B470F43A52918C978105E1A2587BE577",
+          "knownPreviousSha256": []
+        }
+      ]
+    },
+    {
+      "id": "bestiary-onyxia-patch-z",
+      "displayName": "Bestiary Onyxia Patch Z",
+      "version": "1.0.0",
+      "kind": "mpq-model-override",
+      "required": true,
+      "archive": "https://github.com/catchupchips-coder/NEMESIS-Distribution/releases/download/preview-2026.09.15.1/bestiary-onyxia-patch-z-1.0.0.zip",
+      "archiveSize": 2408706,
+      "archiveSha256": "142876AFCCAAA40CF4D839405A4682A6A10BF72522C3119D5F02D116F0DA4845",
+      "gameClosedRequired": true,
+      "restartRequired": true,
+      "files": [
+        {
+          "path": "Data\\patch-Z.MPQ",
+          "size": 2414661,
+          "sha256": "4C11197082C0664287B7E5986F26D39A9E7DF8E900E65E0315B099A98810043B"
+        }
+      ]
+    }
+  ],
+  "notices": [],
+  "unmanagedPaths": [
+    "Data/patch-J.mpq",
+    "Data/Patch-N.mpq",
+    "Data/patch-W.MPQ",
+    "Data/patch-X.MPQ",
+    "Data/patch-Y.MPQ"
+  ],
+  "notes": [
+    "SavedVariables are never shipped or overwritten.",
+    "Unrelated AddOns and unmanaged MPQs are preserved.",
+    "Preview includes the current designated retroport test MPQ for cross-machine client rendering validation.",
+    "Third-party notices are published at https://github.com/catchupchips-coder/NEMESIS-Distribution/blob/main/THIRD-PARTY-NOTICES.md."
+  ]
+}
